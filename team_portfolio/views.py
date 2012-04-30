@@ -4,4 +4,4 @@ from shortcuts import render_response
 
 def home(request):
     #return HttpResponse("POLL INDEX YOOO")
-    return render_response('docs/home.html')
+    return render_response('home.html')
