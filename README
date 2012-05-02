@@ -9,6 +9,10 @@ Confirming that more info needs to be added
 git add .
 git commit -m 'comment'
 git push
+<<<<<<< HEAD
+git pull
+=======
 git pull
 
 THIS IS A TEST TO SEE IF I CAN EDIT SSDKLFJAKFL;JA;DSKF;JASDF; -Facundo
+>>>>>>> 58e67bfae2396dcf7459953d4039f875f13dde56
