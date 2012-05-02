@@ -3,5 +3,5 @@ from shortcuts import render_response
 #shortcuts.py is baller file
 
 def home(request):
-    return HttpResponse("POLL INDEX YOOO")
-
+    #return HttpResponse("POLL INDEX YOOO")
+    return render_response('home.html')
