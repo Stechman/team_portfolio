@@ -5,3 +5,6 @@ from shortcuts import render_response
 def home(request):
     #return HttpResponse("POLL INDEX YOOO")
     return render_response('home.html')
+
+def projects(request):
+    return render_response('projects.html')
